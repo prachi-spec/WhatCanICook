@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/recipes/search
+Content-Type: application/json
+
+["tomato", "egg"]
+###
+GET http://localhost:8080/api/recipes/10
+###
+GET http://localhost:8080/api/recipes

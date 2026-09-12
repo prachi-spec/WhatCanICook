@@ -1,0 +1,19 @@
+# Java / Maven
+target/
+*.class
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+application-local.properties
+backend/src/main/resources/application.properties
