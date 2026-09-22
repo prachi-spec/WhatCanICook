@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatCanICook?</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="app-window">
+
+        <!-- Top bar -->
+        <header class="top-bar">
+            <div class="app-title">WhatCanICook?</div>
+
+            <div class="window-buttons">
+                <span>−</span>
+                <span>□</span>
+                <span>×</span>
+            </div>
+        </header>
+
+
+        <!-- Main content -->
+        <main class="main-content">
+
+            <section class="intro">
+                <p class="small-text">WELCOME TO</p>
+
+                <h1>
+                    WHAT CAN<br>
+                    I COOK?
+                </h1>
+
+                <p class="subtitle">
+                    Tell us what's in your kitchen.
+                </p>
+            </section>
+
+
+            <!-- Ingredients -->
+            <section class="ingredients">
+
+                <h2>What's in your kitchen?</h2>
+
+                <div class="input-row">
+                    <input
+                        type="text"
+                        id="ingredientInput"
+                        placeholder="e.g. eggs, tomato, rice..."
+                    >
+
+                    <button id="addButton">+ Add</button>
+                </div>
+
+                <div id="ingredientList" class="ingredient-list">
+                    <!-- Ingredients will appear here -->
+                </div>
+
+            </section>
+
+
+            <!-- Cook button -->
+            <button id="cookButton" class="cook-button">
+                WHAT CAN I MAKE?
+            </button>
+
+
+            <!-- Recipe section -->
+            <section id="recipeSection" class="recipe-section">
+
+                <h2>Your recipes will appear here 👀</h2>
+
+                <p>
+                    Add some ingredients and let's cook!
+                </p>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
